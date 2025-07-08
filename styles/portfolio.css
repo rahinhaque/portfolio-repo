@@ -28,9 +28,11 @@ nav {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
+/* shared style  */
 /* button  */
-
+.second-bg{
+    background-color: #FFF8F3;
+}
 .btn-2{
     background-color: #FFF8F3;
     border: 2px solid #FD6E0A;
@@ -71,7 +73,7 @@ nav ul{
 nav li a{
     text-decoration: none;
     font-size: 20px;
-    color: 
+    
 }
 
 /* banner section */
@@ -87,12 +89,15 @@ nav li a{
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .banner-greetings{
     font-weight: 600;
     font-size: 45px;
     color:  #474747;
+    margin-bottom: 0;
 }
 
 .banner-description{
@@ -104,4 +109,40 @@ nav li a{
 .banner-profile-pic{
     width: 584px;
 
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description{
+    font-weight: 300;
+    font-size: 18px;
+    color: #757575;
+}
+/* main stle  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display:flex ;
+    justify-content: space-around;
+    
+}
+
+.item-description{
+    font-weight: bold;
+    
 }
